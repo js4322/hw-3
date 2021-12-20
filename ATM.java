@@ -1,5 +1,5 @@
 public class ATM {
-    public static int countBanknotes(int sum) {
+    public int countBanknotes(int sum) {
         int result = 0;
         while (true) {
             if (sum == 0)
